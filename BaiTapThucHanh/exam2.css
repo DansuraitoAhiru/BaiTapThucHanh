@@ -37,7 +37,7 @@ ol {
      color: black;
     font-size: 18px;
 }
-li:hover {
+ol li:hover {
     color: yellow;
     background-color:#78350f  ;
 }
@@ -52,4 +52,5 @@ footer p {
     height: 80px;
     line-height: 40px;
     font-size: 18px;
+
 }
