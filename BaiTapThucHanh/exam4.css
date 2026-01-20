@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #c0392b;
+    color: white;
+    height: 62px;
+    justify-content: space-evenly;
+}
+
+header p {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 15px 30px;
+}
+
+header nav {
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin: 20px ;
+    font-size: 20px;
+}
+
+header a:hover {
+    color: beige;
+}
+
+.home {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.home1 {
+    margin: 100px  100px 0 200px;
+}
+
+.home1 h1 {
+    font-size: 40px;
+}
+
+.home1 p {
+    line-height: 30px;
+}
+
+.home2 img {
+    width: 60%;
+    border-radius: 10px;
+}
+
+#menu h1 {
+    margin: 90px 0 30px;
+    text-align: center;
+    color: #c0392b;
+}
+
+#menu img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.middle {
+    background-color:  #fff9f5;
+    width: 300px;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.middle p {
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.price {
+    color: #c0392b;
+}
+
+.middle:hover {
+    transform: scale(1.1);
+}
+
+.chicken {
+    background-color:  #fff9f5;
+    width: 300px;
+    margin-left: 130px;
+    transition: all 0.2s ease;
+}
+
+.chicken p {
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.chicken:hover {
+    transform: scale(1.1);
+}
+
+.special {
+    background-color:  #fff9f5;
+    width: 300px;
+    margin-left: 130px;
+    transition: all 0.2s ease;
+}
+
+.special p {
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.special:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+}
