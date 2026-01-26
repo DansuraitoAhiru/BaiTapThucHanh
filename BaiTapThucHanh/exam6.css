@@ -19,6 +19,7 @@ header p {
 img {
     width: 100%;
     border-radius: 20px;
+    height: 180px;
 }
 
 .head {
@@ -58,4 +59,5 @@ img {
 .new {
     color:#4aede2;
     font-size: 26px;
+
 }
